@@ -10,13 +10,10 @@ public class StackClass {
         stk.add("How Are u ");
         stk.add("I am");
         stk.add("Thanks u");
+        System.out.println("POSITION OF-> "+stk.search("I am"));
         while(!stk.isEmpty()){
             System.out.println(stk.peek());
             stk.pop();
-        }
-
-        Queue<String> queue = new Queue<>() {
-            while(!queue.)
         }
     }
 }
