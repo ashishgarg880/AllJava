@@ -44,6 +44,6 @@ public class StringBalanced {
         list.add("add");
         list.add("boook");
         list.add("break");
-        Solve(list);
+        Solve(l]=ist);
     }
 }
