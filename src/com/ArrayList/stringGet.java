@@ -1,6 +1,7 @@
 package com.ArrayList;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.ListIterator;
 
@@ -12,6 +13,7 @@ public class stringGet {
         list.add("Ashish");
         list.add("Gupta");
 
+        Collections.sort(list);
         ListIterator<String> li = list.listIterator();
         System.out.println("Start List");
         while (li.hasNext()){
