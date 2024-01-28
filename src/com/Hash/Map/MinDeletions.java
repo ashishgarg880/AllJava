@@ -5,6 +5,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
+@SuppressWarnings({"unchecked", "unused"})
 public class MinDeletions {
     public int minDeletions(String s) {
         Map<Character, Integer> frequencyMap = new HashMap<>();
@@ -27,5 +28,15 @@ public class MinDeletions {
         }
 
         return deletion;
+    }
+
+    public int mapSize() {
+        Map<Integer, String> map = new HashMap<>();
+        map.put(1, "One");
+        map.put(Integer.valueOf(1), "One");
+        map.put(null, "Null");
+        map.put(null, "Another Null");
+
+        return map.size();
     }
 }

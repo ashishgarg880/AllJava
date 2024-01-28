@@ -4,7 +4,7 @@ public class FunctionalMain {
 
     public static void main(String[] args) {
 
-        FunctionalClass functionalClass = new FunctionalClass();
-        functionalClass.function1();
+//        FunctionalClass functionalClass = new FunctionalClass();
+//        functionalClass.function1();
     }
 }

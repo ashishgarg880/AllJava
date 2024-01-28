@@ -47,14 +47,12 @@ public class Coins {
     }
 
     public HashMap<String,Integer> countNumber (String str) {
-        HashMap<String,Integer> map = new
-                HashMap<String,Integer>();
+        HashMap<String, Integer> map = new
+                HashMap<String, Integer>();
         String[] st = str.split(" ");
-        for(String s : st) {
+        for (String s : st) {
             map.put(s, map.getOrDefault(s, 0) + 1);
         }
         return map;
     }
-
-
 }
