@@ -2,7 +2,7 @@ package com.Arr;
 
 import java.util.ArrayList;
 
-public class List {
+public class List1 {
     static class Stack{
         static ArrayList<String> list = new ArrayList<>();
 
