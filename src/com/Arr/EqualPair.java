@@ -3,7 +3,12 @@ package com.Arr;
 import java.util.Arrays;
 
 public class EqualPair {
-    public int equalPairs(int[][] grid) {
+    public static void main(String[] args) {
+        EqualPair equalPair = new EqualPair();
+        int[][] grid = new int[][]{{5,3}, {4,6}, {15,3}, {4,4}};
+        System.out.println(equalPair.equals(grid));
+    }
+    public static int equalPairs(int[][] grid) {
         int n = grid.length;
         int count = 0;
 

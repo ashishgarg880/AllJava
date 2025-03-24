@@ -7,10 +7,12 @@ public class PatternMain {
 //        repeatShades.repeatingSquare(4);
 //        repeatShades.checkBoard(4);
 
-//        ColorPattern colorPattern = new ColorPattern();
-//        colorPattern.colorPattern(4);
+        ColorPattern colorPattern = new ColorPattern();
+   colorPattern.colorPattern(4);
 
-        TessletionPattern tessletionPattern = new TessletionPattern();
-        tessletionPattern.geometricPattern(6);
+//        TessletionPattern tessletionPattern = new TessletionPattern();
+//        tessletionPattern.geometricPattern(6);
+
+//        new SquarePattern().squarePattern(5);
     }
 }

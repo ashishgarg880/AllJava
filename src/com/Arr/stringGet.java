@@ -16,12 +16,12 @@ public class stringGet {
         Collections.sort(list);
         ListIterator<String> li = list.listIterator();
         System.out.println("Start List");
-        while (li.hasNext()){
+        while (li.hasNext()) {
             System.out.println("Index: "+li.nextIndex()+" Name ="+li.next());
         }
 
         System.out.println("Reverse List");
-        while(li.hasPrevious()){
+        while(li.hasPrevious()) {
             System.out.println("Index: "+li.previousIndex()+" Name ="+li.previous());
         }
     }
